@@ -2,11 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppFooterComponent } from './components/app-footer/app-footer.component';
+import { AppHeaderComponent } from './components/app-header/app-header.component';
+import { AppComponent } from './components/app/app.component';
+import { BookListComponent } from './components/book-list/book-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppHeaderComponent,
+    AppFooterComponent,
+    BookListComponent
   ],
   imports: [
     BrowserModule,
